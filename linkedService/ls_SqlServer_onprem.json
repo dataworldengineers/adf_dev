@@ -1,0 +1,17 @@
+{
+	"name": "ls_SqlServer_onprem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=SIVAKRISHNA\\SQLEXPRESS;initial catalog=AdventureWorksDW2014",
+			"userName": "SIVAKRISHNA\\ravuri.sivakrishna",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiMjkzOGM1MC0xMDgyLTQ1ZjQtODQxZC0yNjdjYmI1YjZjZTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ir-my-local-pc",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
