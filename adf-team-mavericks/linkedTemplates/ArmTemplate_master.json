@@ -7,6 +7,31 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-team-mavericks"
 		},
+		"ls_SqlServer_onprem_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_SqlServer_onprem'",
+			"defaultValue": "Integrated Security=True;Data Source=SIVAKRISHNA\\SQLEXPRESS;Initial Catalog=AdventureWorksDW2014"
+		},
+		"ls_SqlServer_onprem_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ls_SqlServer_onprem'"
+		},
+		"ls_ablob_covidreportingsa_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_ablob_covidreportingsa'"
+		},
+		"ls_adls_covidreportingdl_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ls_adls_covidreportingdl'"
+		},
+		"ls_SqlServer_onprem_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "SIVAKRISHNA\\ravuri.sivakrishna"
+		},
+		"ls_adls_covidreportingdl_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsteammavericks.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +58,24 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"ls_ablob_covidreportingsa_connectionString": {
+						"value": "[parameters('ls_ablob_covidreportingsa_connectionString')]"
+					},
+					"ls_adls_covidreportingdl_accountKey": {
+						"value": "[parameters('ls_adls_covidreportingdl_accountKey')]"
+					},
+					"ls_SqlServer_onprem_connectionString": {
+						"value": "[parameters('ls_SqlServer_onprem_connectionString')]"
+					},
+					"ls_SqlServer_onprem_password": {
+						"value": "[parameters('ls_SqlServer_onprem_password')]"
+					},
+					"ls_adls_covidreportingdl_properties_typeProperties_url": {
+						"value": "[parameters('ls_adls_covidreportingdl_properties_typeProperties_url')]"
+					},
+					"ls_SqlServer_onprem_properties_typeProperties_userName": {
+						"value": "[parameters('ls_SqlServer_onprem_properties_typeProperties_userName')]"
 					}
 				}
 			},
