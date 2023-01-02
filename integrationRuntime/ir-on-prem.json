@@ -1,0 +1,6 @@
+{
+	"name": "ir-on-prem",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
