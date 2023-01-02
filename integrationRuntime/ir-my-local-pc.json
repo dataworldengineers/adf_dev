@@ -1,0 +1,7 @@
+{
+	"name": "ir-my-local-pc",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "This IR will make connection to my local PC"
+	}
+}
