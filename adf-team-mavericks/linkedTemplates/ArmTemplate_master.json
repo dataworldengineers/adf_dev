@@ -78,11 +78,11 @@
 					"ls_adls_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingdl_properties_typeProperties_url')]"
 					},
-					"tr_ingesr_population_data_properties_typeProperties_scope": {
-						"value": "[parameters('tr_ingesr_population_data_properties_typeProperties_scope')]"
-					},
 					"ls_SqlServer_onprem_properties_typeProperties_userName": {
 						"value": "[parameters('ls_SqlServer_onprem_properties_typeProperties_userName')]"
+					},
+					"tr_ingesr_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_ingesr_population_data_properties_typeProperties_scope')]"
 					}
 				}
 			},
