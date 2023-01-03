@@ -1,0 +1,17 @@
+{
+	"name": "tr_ingesr_population_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population_by_age.tsv.gz",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/554c41fe-aca1-46fd-b4a0-159603547de2/resourceGroups/rs_dev_team_mavericks/providers/Microsoft.Storage/storageAccounts/bsteammavericks",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
