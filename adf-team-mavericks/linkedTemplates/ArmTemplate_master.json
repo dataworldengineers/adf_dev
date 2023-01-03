@@ -32,6 +32,10 @@
 			"type": "string",
 			"defaultValue": "https://adlsteammavericks.dfs.core.windows.net/"
 		},
+		"tr_ingesr_population_data_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/554c41fe-aca1-46fd-b4a0-159603547de2/resourceGroups/rs_dev_team_mavericks/providers/Microsoft.Storage/storageAccounts/bsteammavericks"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -73,6 +77,9 @@
 					},
 					"ls_adls_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_covidreportingdl_properties_typeProperties_url')]"
+					},
+					"tr_ingesr_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_ingesr_population_data_properties_typeProperties_scope')]"
 					},
 					"ls_SqlServer_onprem_properties_typeProperties_userName": {
 						"value": "[parameters('ls_SqlServer_onprem_properties_typeProperties_userName')]"

@@ -28,6 +28,10 @@
 			"type": "string",
 			"defaultValue": "https://adlsteammavericks.dfs.core.windows.net/"
 		},
+		"tr_ingesr_population_data_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/554c41fe-aca1-46fd-b4a0-159603547de2/resourceGroups/rs_dev_team_mavericks/providers/Microsoft.Storage/storageAccounts/bsteammavericks"
+		},
 		"ls_SqlServer_onprem_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "SIVAKRISHNA\\ravuri.sivakrishna"
@@ -99,6 +103,26 @@
 				"type": "SelfHosted",
 				"description": "This IR will make connection to my local PC",
 				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/tr_ingesr_population_data')]",
+			"type": "Microsoft.DataFactory/factories/triggers",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"runtimeState": "Stopped",
+				"pipelines": [],
+				"type": "BlobEventsTrigger",
+				"typeProperties": {
+					"blobPathBeginsWith": "/population/blobs/population_by_age.tsv.gz",
+					"ignoreEmptyBlobs": true,
+					"scope": "[parameters('tr_ingesr_population_data_properties_typeProperties_scope')]",
+					"events": [
+						"Microsoft.Storage.BlobCreated"
+					]
+				}
 			},
 			"dependsOn": []
 		},
