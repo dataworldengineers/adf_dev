@@ -23,6 +23,9 @@
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://adlsteammavericks.dfs.core.windows.net/"
 		},
+		"ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url": {
+			"value": "https://github.com/"
+		},
 		"tr_ingesr_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/554c41fe-aca1-46fd-b4a0-159603547de2/resourceGroups/rs_dev_team_mavericks/providers/Microsoft.Storage/storageAccounts/bsteammavericks"
 		},
