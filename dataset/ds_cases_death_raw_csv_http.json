@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "dataworldengineers/datasets/tree/main/ecdc_data/cases_deaths.csv"
+				"relativeUrl": "/dataworldengineers/datasets/tree/main/ecdc_data/cases_deaths.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
