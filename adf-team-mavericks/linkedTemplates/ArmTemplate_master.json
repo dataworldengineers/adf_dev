@@ -34,7 +34,7 @@
 		},
 		"ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com/"
+			"defaultValue": "@{linkedService().sourceBaseURL}"
 		},
 		"tr_ingesr_population_data_properties_typeProperties_scope": {
 			"type": "string",
