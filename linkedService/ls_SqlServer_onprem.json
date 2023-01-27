@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=True;data source=SIVAKRISHNA\\SQLEXPRESS;initial catalog=AdventureWorksDW2014",
+			"connectionString": "integrated security=True;data source=SIVAKRISHNA\\SQLEXPRESS;initial catalog=ADF",
 			"userName": "SIVAKRISHNA\\ravuri.sivakrishna",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2ZGU3NDUyYS0zY2Q2LTRiY2EtOGVmMS1iNWQyYjQ2NmE5OTciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4N2VhNDM3NS0yOGU2LTQ3M2MtOWMyMy0zMWQwNTRiODM1ZjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "ir-my-local-pc",
