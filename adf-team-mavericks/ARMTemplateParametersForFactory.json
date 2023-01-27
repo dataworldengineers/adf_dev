@@ -6,7 +6,7 @@
 			"value": "adf-team-mavericks"
 		},
 		"ls_SqlServer_onprem_connectionString": {
-			"value": "Integrated Security=True;Data Source=SIVAKRISHNA\\SQLEXPRESS;Initial Catalog=AdventureWorksDW2014"
+			"value": "Integrated Security=True;Data Source=SIVAKRISHNA\\SQLEXPRESS;Initial Catalog=ADF"
 		},
 		"ls_SqlServer_onprem_password": {
 			"value": ""
@@ -16,6 +16,9 @@
 		},
 		"ls_adls_covidreportingdl_accountKey": {
 			"value": ""
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/posts"
 		},
 		"ls_SqlServer_onprem_properties_typeProperties_userName": {
 			"value": "SIVAKRISHNA\\ravuri.sivakrishna"
